@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News homepage</title>
+    <link rel="icon" href="../news-homepage-main/assets/images/favicon-32x32.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+<body>
+    <div class="header" >
+        <img src="../news-homepage-main/assets/images/logo.svg" height="30px" alt="logo">
+        <div class="subheader-container">
+            <ul class="subheader">
+                <button class="btn ">Home</button>
+                <button class="btn ">New</button>
+                <button class="btn ">Popular</button>
+                <button class="btn ">Trending</button>
+                <button class="btn ">Categories</button>
+            </ul>
+            <button class="btn  toggle-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="../news-homepage-main/assets/images/icon-menu.svg" alt="menu" height="10px"></button>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Menu</h5>
+          <button  type="button" class=" text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><img src="../news-homepage-main/assets/images/icon-menu-close.svg" alt="close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="list-unstyled">
+                <li><a class="nav-link" href="#">Home</a></li>
+                <li><a class="nav-link" href="#">New</a></li>
+                <li><a class="nav-link" href="#">Popular</a></li>
+                <li><a class="nav-link" href="#">Trending</a></li>
+                <li><a class="nav-link" href="#">Categories</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    
+
+
+    <div class="container1">
+        <div class="item item-1"> <img src="../news-homepage-main/assets/images/image-web-3-desktop.jpg" width="100%" height="60%" alt=" web">
+            <div class="container2">
+                <h1 style="font-weight: 800;">The Bright Future of web 3.0?</h1>
+                <div class="container3">
+                    <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+                    <button style="background-color: hsl(5, 85%, 63%); text-align: center; font-size:10px; border: none; width: 110px; height: 30px;"><b>READ MORE</b></button>    
+                </div>
+            </div>
+        </div>
+            
+      
+        <div class="item item-3">
+            <h2 style="color:hsl(35, 77%, 62%); font-weight:600;">New</h2><br>
+            <h5 style="color:hsl(36, 100%, 99%);">Hydrogen VS Electric Cars</h5>
+            <p class="col2para1 text-secondary">Will hydrogen-fueled cars ever catch up to EVs?</p>
+            <hr class="text-light">
+            <h5 style="color:hsl(36, 100%, 99%);">The Downsides of AI Artistry</h5>
+            <p class="col2para2 text-secondary">  What are the possible adverse effects of on-demand AI image generation?            </p>
+            <hr class="text-light">
+            <h5 style="color:hsl(36, 100%, 99%);">The Downsides of AI Artistry</h5>
+            <p class="col2para3 text-secondary">  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+            </p>
+        </div>
+            
+        <div class="item item-4">
+            <div class="container4">
+                <img src="../news-homepage-main/assets/images/image-retro-pcs.jpg" width="100%" alt="retro">
+                <div style="margin-left: 5px;">
+                    <h3 style="color:hsl(35, 77%, 62%);">01</h3>        
+                    <h6>Reviving Retro PCs</h6>
+                    <p style="font-size: 14px;">What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </div>
+        </div>
+        <div class="item" >
+                <div class="container4 container4-4">
+                <img src="../news-homepage-main/assets/images/image-top-laptops.jpg" width="100%" alt="retro">
+                <div style="margin-left: 5px;">
+                    <h3 style="color:hsl(35, 77%, 62%);">02</h3>
+                    <h6>Top 10 Laptops of 2022</h6>
+                    <p style="font-size: 14px;">Our best picks for various needs and budgets.</p>
+                </div>
+            </div>
+        </div>
+        <div class="item" >
+            <div class="container4 container4-4" >
+                <img src="../news-homepage-main/assets/images/image-gaming-growth.jpg" width="100%" alt="retro">
+                <div style="margin-left: 5px;">
+                    <h3 style="color:hsl(35, 77%, 62%);">03</h3>       
+                    <h6>The Growth of Gaming</h6>
+                    <p style="font-size: 14px;">How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <p style="text-align: end; font-size: 10px;"><i>Nishanth</i></p>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMN26TZ5LwHujXAl6Kq2mW64coC5S8eoD1p6f5hYhASwANFPFlth/UvGdJJ/56NB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGczK3B1b6qaLg4lVB9sK6eM5tvnpZ2mrdk5H2yR0EId+62Y5LuoJlAtU0y" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
